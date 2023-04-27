@@ -1,0 +1,46 @@
+html {
+font-size: 18px;
+}
+
+body {
+background-color: rgb(114, 0, 19);
+width: 1500px;
+font-size: 15pt;
+background-image: linear-gradient(to top, rgb(28, 157, 200) 0%, rgb(119, 95, 178) 100%);
+}
+
+article {
+    font-size: 4em;
+}
+h1{
+    font-size: 4em;
+}
+
+h1 {
+font-size: 2em;
+
+font-family:Arial, Helvetica, sans-serif, Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+color: rgb(85, 149, 128);
+width: 25%;
+background-color: rgb(59, 78, 70);
+font-size: 1rem;
+}
+
+.myclass {
+    color: rgb(45, 48, 96);
+}
+
+.green {
+    color: rgb(5, 39, 28);
+}
+#first {
+    font-weight: 50;
+}
+
+a {
+    color: rgb(103, 192, 162);
+
+}

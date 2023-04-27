@@ -1,0 +1,46 @@
+html {
+font-size: 24px;
+}
+
+body {
+background-color: rgb(220, 107, 126);
+width: 800px;
+font-size: 5pt;
+background-color: rgb(125, 110, 90);
+}
+
+article {
+    font-size: 2em;
+}
+h1{
+    font-size: 4em;
+}
+
+h1 {
+font-size: 2em;
+
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+p {
+color: rgb(255, 186, 218);
+width: 80%;
+background-color: rgb(126, 125, 116);
+font-size: 1.5rem;
+}
+
+.myclass {
+    color: brown;
+}
+
+.green {
+    color: rgb(0, 255, 174);
+}
+#first {
+    font-weight: 50;
+}
+
+a {
+    color: rgb(103, 192, 162);
+
+}

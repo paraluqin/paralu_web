@@ -11,6 +11,33 @@
         width: 100%;
       }
     </style>
+    <title>CSS Box Model</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="../assets/favicon.png" />
+    <link rel="stylesheet" href="../main.css" />
+
+   
+     <style>
+
+      .box {
+        width: 200px;
+        height: 200px;
+        background: green;
+        margin: 50px;
+        padding: 20px;
+        border: 10px solid pink;
+      }
+
+      #content {
+        box-sizing: content-box;
+      }
+      #border {
+        box-sizing: border-box;
+      }
+
+    </style>
+
   </head>
   <body>
     <h1>海碗師傅的個人作品網站</h1>
@@ -46,10 +73,100 @@
        <a href="art.com">點擊這裡可以查詢：</a>
     </p>
     
+    
     <h3>以上。</h3>
     <p id="last" >
   接下來就是道別的時候啦
     </p>
     <a href="/index.html" id="back">back</a>
+  </head>
+  <body>
+    <div class="box" id="content"></div>
+    <div class="box" id="border"></div>
+    
+
+
+  </body>
+ <style>
+
+      .box {
+        width: 200px;
+        height: 200px;
+        background: green;
+        margin: 50px;
+        padding: 20px;
+        border: 10px solid pink;
+      }
+
+      #content {
+        box-sizing: content-box;
+      }
+      #border {
+        box-sizing: border-box;
+      }
+
+      .img-box {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      .imgs {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        animation: round 9s infinite;
+      }
+      @keyframes round {
+        0% {
+          rotate: 0deg;
+        }
+        100% {
+          rotate: 360deg;
+        }
+      }
+      .imgs a {
+        position: absolute;
+        display: inline-block;
+        width: 130px;
+        height: 100px;
+      }
+      .img1 {
+        left: 50%;
+        top: 0;
+        transform: translate(-50%);
+      }
+      
+      .imgs a::after {
+        content: "";
+        display: inline-block;
+        width: 130px;
+        height: 100px;
+        background-size: contain;
+      }
+      .img1::after {
+        background: url("image brand/computer.jpeg") no-repeat;
+      }
+      
+
+    </style>
+    
+    <div class="img-box">
+      <div class="imgs">
+        <a class="img1" href=" "></a >
+       
+  
+        <!-- < img height=150 src="个人作品集/苹果书/12的副本.jpg"width=“150px”/>  -->
+      </div>
+    </div>
+     
+   
+   <a href="../css-exercise/index.html">back</a >
+    
+    <p>你好我想要做动画</p>
+   
+
+
+    
+
   </body>
 </html>

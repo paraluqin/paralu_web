@@ -44,3 +44,11 @@ a {
     color: rgb(103, 192, 162);
 
 }
+.box
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  

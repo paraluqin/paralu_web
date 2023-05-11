@@ -46,3 +46,26 @@ a {
     color: rgb(89, 30, 0);
 
 }
+
+
+<style>
+  .moving-text {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: move 5s linear infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+ </style>
+<div class="moving-text">
+  这是一行会平行移动的文字。
+</div>
+
+

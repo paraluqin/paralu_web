@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+		<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="#" />
+    <link rel="stylesheet" href="style网格 3.css" />
+  </head>
+  <body>
+    Shall I compare thee to a summer's day?
+
+    Thou art more lovely and more temperate:
+    
+    Rough winds do shake the darling buds of May,
+    
+    And summer's lease hath all too short a date:
+    
+  </body>
+<style>
+  p {
+          background: rgb(47, 145, 29);
+          border: 3px solid rgb(255, 0, 132);
+          padding: 10px;
+          margin: 10px;}
+</style>
+
+  <div class="box">
+    <div><a href="#">作</a></div>
+    <div><a href="#">业</a></div>
+    <div class="active"><a href="#">超</a></div>
+    <div><a href="#">我</a></div>
+    <div><a href="#">超</a></div>
+</div>
+
+  
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+ <title>方块网格</title>
+ <style>
+  .container {
+   display: grid;
+   grid-template-columns: repeat(3, 100px);
+   grid-template-rows: repeat(3, 100px);
+   grid-gap: 10px;
+  }
+  .box {
+   background-color: #ddd;
+   border: 1px solid #999;
+   text-align: center;
+   font-size: 24px;
+   font-weight: bold;
+   color: #333;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .box:nth-child(odd) {
+   background-color: #999;
+   color: #fff;
+  }
+ </style>
+</head>
+<body>
+ <div class="container">
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
+  <div class="box">4</div>
+  <div class="box">5</div>
+  <div class="box">6</div>
+  <div class="box">7</div>
+  <div class="box">8</div>
+  <div class="box">9</div>
+ </div>
+</body>
+
+</html>

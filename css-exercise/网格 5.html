@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Four Rectangle Grid</title>
+ <link rel="stylesheet" href="style网格 5.css" />
+ <style>
+  .container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   grid-gap: 10px;
+   width: 400px;
+   height: 400px;
+   margin: auto;
+  }
+  .box {
+   background-color: #F1C40F;
+   border: 2px solid #E67E22;
+   text-align: center;
+   font-size: 36px;
+   font-weight: bold;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: background-color 0.5s ease;
+  }
+  .box:hover {
+   background-color: #3498DB;
+   border-color: #2980B9;
+  }
+  .box:nth-child(2):hover {
+   background-color: #2ECC71;
+   border-color: #27AE60;
+  }
+  .box:nth-child(3):hover {
+   background-color: #9B59B6;
+   border-color: #8E44AD;
+  }
+  .box:nth-child(4):hover {
+   background-color: #E74C3C;
+   border-color: #C0392B;
+  }
+</style>
+</head>
+<body>
+ <div class="container">
+  <div class="box">哈哈</div>
+  <div class="box">就是你</div>
+  <div class="box">作业</div>
+  <div class="box">做不完啊</div>
+ </div>
+</body>
+</html>
+
+ </style>
+

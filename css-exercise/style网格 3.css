@@ -1,0 +1,23 @@
+html {
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    }
+    
+    body {
+     background-color: rgb(111, 11, 0);
+    width: max-content;
+    font-size: 60pt;
+    }
+   
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+      .active {
+          order: -1;
+          flex: 1 0 100%;
+      }
+ 
+    

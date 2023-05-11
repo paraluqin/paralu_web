@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Six Diamond Grid</title>
+ <style>
+  .container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   grid-gap: 10px;
+   width: 400px;
+   height: 400px;
+   margin: auto;
+   transform: rotate(-45deg);
+  }
+  .box {
+   background-color: #F1C40F;
+   border: 2px solid #E67E22;
+   text-align: center;
+   font-size: 36px;
+   font-weight: bold;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   transition: background-color 0.5s ease;
+   transform: rotate(45deg);
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+  }
+  .box:hover {
+   background-color: #3498DB;
+   border-color: #2980B9;
+  }
+  .box:nth-child(2):hover {
+   background-color: #2ECC71;
+   border-color: #27AE60;
+  }
+  .box:nth-child(3):hover {
+   background-color: #9B59B6;
+   border-color: #8E44AD;
+  }
+  .box:nth-child(4):hover {
+   background-color: #E74C3C;
+   border-color: #C0392B;
+  }
+  .box:nth-child(5):hover {
+   background-color: #34495E;
+   border-color: #2C3E50;
+  }
+  .box:nth-child(6):hover {
+   background-color: #F39C12;
+   border-color: #D35400;
+  }
+  .input-field {
+   width: 80%;
+   height: 50%;
+   margin-top: 10px;
+   padding: 5px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 18px;
+   text-align: center;
+   box-sizing: border-box;
+   resize: none;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   opacity: 0;
+   transition: opacity 0.5s ease;
+  }
+  .box:hover .input-field {
+   opacity: 1;
+  }
+ </style>
+</head>
+<body>
+ <div class="container">
+  <div class="box">
+   <div>哈哈</div>
+   <textarea class="input-field" placeholder="Enter text here"></textarea>
+  </div>
+  <div class="box">
+   <div>谁</div>
+   <textarea class="input-field" placeholder="Enter text here"></textarea>
+  </div>
+  <div class="box">
+   <div>作业没写完啊</div>
+   <textarea class="input-field" placeholder="Enter text here"></textarea>
+  </div>
+  <div class="box">
+   <div>哦</div>
+   <textarea class="input-field" placeholder="Enter text here"></textarea>
+  </div>
+  <div class="box">
+   <div>原来是</div>
+   <textarea class="input-field" placeholder="Enter text here"></textarea>
+  </div>
+  <div class="box">
+   <div>你啊。</div>
+   <textarea class="input-field" placeholder="Enter text here"></textarea>
+  </div>
+ </div>
+</body>
+</html>

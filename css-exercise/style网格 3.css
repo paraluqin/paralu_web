@@ -4,10 +4,11 @@ html {
     font-style: oblique;
     }
     
+    
     body {
      background-color: rgb(111, 11, 0);
     width: max-content;
-    font-size: 60pt;
+    font-size: 28pt;
     }
    
     .box {
@@ -19,5 +20,3 @@ html {
           order: -1;
           flex: 1 0 100%;
       }
- 
-    

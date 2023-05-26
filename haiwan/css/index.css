@@ -1,0 +1,116 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	
+}
+a
+{
+	color: black;
+	text-decoration: none;
+}
+img
+{
+	width: 20%;
+}
+body
+{
+	width: 95%;
+	height: 100vh;
+	margin: 0 auto;
+}
+.head
+{
+	margin: 0px auto;
+	padding-top:2vh ;
+	height: 15vh;
+}
+.head-nav
+{
+	font-size: 18px;float: left;
+}
+.nav-ul
+{
+	list-style: none;
+	position: absolute;
+	z-index: 200;
+}
+.head-mu
+{
+	float: right;
+	font-size: 80px;
+	font-family: '宋体';
+}
+.main
+{
+	height: 90vh;
+	width: 95%;
+	overflow: hidden;
+	position: relative;
+	top: -17vh;
+}
+.main-img
+{
+	position: absolute;
+	width: 70%;
+	left: 50%;
+	top: 4vh;
+	height: 80vh;
+	transform-origin: left bottom;
+	animation: identifier 10s infinite linear;
+}
+@keyframes identifier {
+	0{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+/* .main-img img:nth-child(1)
+{
+	position: absolute;
+	top: -0vh;
+	left: 41%;
+}
+ */
+ .main-img>div
+{
+	position: absolute;
+	top: 0vh;
+	height: 80vh;
+	left: 0%;
+	transform-origin: left bottom;
+}
+.main-img>div:nth-child(1)
+{
+	 transform: rotate(45deg);
+}
+.main-img>div:nth-child(2)
+{
+	 transform: rotate(90deg);
+}
+.main-img>div:nth-child(3)
+{
+	 transform: rotate(135deg);
+}
+.main-img>div:nth-child(4)
+{
+	 transform: rotate(180deg);
+}
+.main-img>div:nth-child(5)
+{
+	 transform: rotate(225deg);
+}
+.main-img>div:nth-child(6)
+{
+	 transform: rotate(270deg);
+}
+.main-img>div:nth-child(7)
+{
+	 transform: rotate(315deg);
+}
+.main-img>div:nth-child(8)
+{
+	 transform: rotate(360deg);
+}
